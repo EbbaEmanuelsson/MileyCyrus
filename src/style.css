@@ -52,6 +52,26 @@ button a{
     text-decoration: none;
 }
 
+main{
+    padding: 100px;
+}
+
+main img{
+    max-width: 100%
+}
+
+main h3{
+    font-size: 16px;
+    opacity: 0.5;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+main p{
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
 footer{
     background-image: linear-gradient(
         rgba(63, 40, 48, 0.9),
@@ -60,6 +80,7 @@ footer{
     background-size: cover;
     padding: 100px 0;
     color: whitesmoke;
+    padding: 40px;
 }
 
 footer h3{
@@ -98,6 +119,10 @@ footer a{
     grid-gap: 64px;
 }
 
+.grid-2-columns{
+    grid-template-columns: 1fr 1fr;
+}
+
 @media (max-width: 900px){
     header{
         padding: 60px 0;
@@ -122,5 +147,14 @@ footer a{
 
     button a{
         font-size: 13px;
+    }
+
+    p{
+       font-size: 14px; 
+    }
+    
+
+    .grid{
+        grid-template-columns: 1fr;
     }
 }
