@@ -52,6 +52,51 @@ button a{
     text-decoration: none;
 }
 
+footer{
+    background-image: linear-gradient(
+        rgba(63, 40, 48, 0.9),
+        rgba(63, 40, 48, 0.9)), url("../Images/Miley-Cyrus-04.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    color: whitesmoke;
+}
+
+footer h3{
+    font-weight: 700;
+    line-height: 30px
+}
+
+footer p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 20px;
+    opacity: 0.7;
+    line-height: 24px;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    opacity: 0.7;
+    line-height: 24px;
+}    
+
+footer a{
+    color: whitesmoke;
+    opacity: 0.7;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
 @media (max-width: 900px){
     header{
         padding: 60px 0;
