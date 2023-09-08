@@ -7,12 +7,15 @@ body{
     margin: 0 auto;
 }
 
+.text-center{
+    text-align: center;
+}
+
 header{
     background-image: url("../Images/Miley-Cyrus-01.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: black;
-    text-align: center;
     padding: 230px 0;
 }
 
@@ -36,11 +39,10 @@ h3{
 }
 
 button{
-    background-color: #E6D2A6;
+    background-color: #FBE7CD;
     padding: 16px 32px;
-    border-radius: 5px;
+    border-radius: 4px;
     border: none;
-    gap: 10px;
     margin-top: 60px;
 }
 
@@ -53,7 +55,13 @@ button a{
 }
 
 main{
+    max-width: 100%;
+    margin: 0 auto;
     padding: 100px;
+}
+
+main.backround{
+    background-color: rgba(251, 231, 205, 0.3);
 }
 
 main img{
@@ -70,6 +78,59 @@ main h3{
 main p{
     line-height: 1.5;
     margin-top: 10px;
+}
+
+section{
+    margin-top: 20px;
+}
+
+.card{
+    padding: 20px;
+    background-color: white;
+}
+
+.card h4, h5, p{
+    font-style: normal;
+    margin: 15px 0;
+} 
+
+.card h4, h5{
+    font-weight: 700;
+    line-height: 0.9;
+
+}
+
+.card h4{
+    font-size: 24px;
+    line-height: normal;
+}
+
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.card h5{
+    font-size: 16px;
+}
+
+.card button{
+    margin-top: 5px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 64px;
+}
+
+.grid-2-columns{
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns{
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 footer{
@@ -113,16 +174,6 @@ footer a{
     opacity: 0.7;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-gap: 64px;
-}
-
-.grid-2-columns{
-    grid-template-columns: 1fr 1fr;
-}
-
 @media (max-width: 900px){
     header{
         padding: 60px 0;
@@ -153,7 +204,6 @@ footer a{
        font-size: 14px; 
     }
     
-
     .grid{
         grid-template-columns: 1fr;
     }
