@@ -5,6 +5,7 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
 .text-center{
@@ -57,7 +58,8 @@ button a{
 main{
     max-width: 100%;
     margin: 0 auto;
-    padding: 100px;
+    padding: 60px 100px;
+    
 }
 
 main.backround{
@@ -81,7 +83,7 @@ main p{
 }
 
 section{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .card{
@@ -133,6 +135,10 @@ section{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.embed{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}     
 footer{
     background-image: linear-gradient(
         rgba(63, 40, 48, 0.9),
